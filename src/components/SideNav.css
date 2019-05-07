@@ -1,0 +1,29 @@
+.SideNav {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    /* top: 0;
+    left: 0; */
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+
+    border-style: solid;
+    border-color: rgb(70, 14, 6);
+}
+
+.Title {
+    color: white;
+}
+
+.ButtonCard {
+    color: gray;
+    background-color: black;
+    position: relative;
+    left:-20px;
+}

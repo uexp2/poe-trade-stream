@@ -1,0 +1,49 @@
+.CenterView {
+    box-sizing: border-box;
+
+    position: relative;
+    
+    max-width: 1743px;
+    left: 160px;
+
+    width: 100%;
+    min-height: 100vh;
+
+    /* border-style: solid;
+    border-color: #18174d; */
+}
+
+.ItemCard {
+    padding: 10px;
+    flex-shrink: 0;
+
+    display: block;
+    position: relative;
+
+    max-width: 1650px;
+    /* left: 160px; */
+
+    /* width: 100%; */
+    height: 120px;
+
+    background-color: black;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.ItemCard,img {
+    height: 72px;
+}
+
+.ItemCard,div { /* temp */
+    color: grey;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 0 0 3px 0;
+}
